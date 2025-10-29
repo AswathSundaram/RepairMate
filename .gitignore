@@ -1,0 +1,17 @@
+# Python virtual environment
+venv/
+env/
+
+# Dataset images and labels (should not be in Git)
+data/train/
+data/valid/
+data/test/
+
+# Ultralytics results folder
+runs/
+
+# IDE and OS files
+__pycache__/
+.vscode/
+.idea/
+.DS_Store

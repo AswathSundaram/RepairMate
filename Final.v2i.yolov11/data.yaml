@@ -1,0 +1,6 @@
+train: ../data/train/images
+val: ../data/valid/images
+test: ../data/test/images
+
+nc: 5
+names: ['Battery', 'SSD', 'Screw', 'RAM', 'NIC']
