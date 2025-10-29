@@ -14,7 +14,7 @@ def train_model():
     # Train the model
     print("Starting model training...")
     results = model.train(
-        data='data/data.yaml',
+        data='C:\\Users\\aswat\\OneDrive\\Desktop\\Project\\RepairMate\\Final.v2i.yolov11\\data.yaml',
         epochs=100,
         imgsz=640,
         batch=8,
