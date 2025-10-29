@@ -8,7 +8,7 @@ data/valid/
 data/test/
 
 # Ultralytics results folder
-runs/
+
 
 # IDE and OS files
 __pycache__/
