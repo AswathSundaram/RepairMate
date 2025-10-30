@@ -9,12 +9,13 @@ def train_model():
         print(f"Using GPU: {torch.cuda.get_device_name(0)}")
 
     # Load a pre-trained YOLOv8 segmentation model
-    model = YOLO('yolov8n-seg.pt')
+    model = YOLO("yolov8n.pt")  # instead of yolov8n-seg.pt
+
 
     # Train the model
     print("Starting model training...")
     results = model.train(
-        data='C:\\Users\\aswat\\OneDrive\\Desktop\\Project\\RepairMate\\Final.v2i.yolov11\\data.yaml',
+        data='C:\\Users\\aswat\\OneDrive\\Desktop\\Project\\RepairMate\\lap.v2i.yolov11\\data.yaml',
         epochs=100,
         imgsz=640,
         batch=8,
