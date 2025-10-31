@@ -16,7 +16,7 @@ def train_model():
     print("Starting model training...")
     results = model.train(
         data='C:\\Users\\aswat\\OneDrive\\Desktop\\Project\\RepairMate\\lap.v2i.yolov11\\data.yaml',
-        epochs=100,
+        epochs=300,
         imgsz=640,
         batch=8,
         name='laptop_parts_segmentation'
